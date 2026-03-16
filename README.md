@@ -1,5 +1,5 @@
 # Endee Semantic Search & RAG QA System
-
+🚀 **This project demonstrates a real-world AI workflow using Endee for semantic search and RAG. Fully reproducible, modular, and ready for production-level AI retrieval systems.**
 ## 🔍 Overview
 This project demonstrates a **semantic search and Retrieval-Augmented Generation (RAG) system** using the Endee vector database.  
 It allows users to ask natural language questions and retrieves the most relevant answers from a dataset of FAQs/articles using **embeddings** and **vector search**.
@@ -26,6 +26,14 @@ It allows users to ask natural language questions and retrieves the most relevan
    Convert user query to embedding → retrieve top-K similar items from Endee → display results.
 
 ---
+## 📁 Project Structure
+```bash
+data/faq_data.csv         # Dataset of questions and answers
+src/create_embeddings.py  # Script to create embeddings and store in Endee
+src/search_query.py       # Script to query Endee and display top results
+requirements.txt          # Python dependencies
+README.md                 # Project documentation
+```
 
 ## 🚀 Quick Start
 
