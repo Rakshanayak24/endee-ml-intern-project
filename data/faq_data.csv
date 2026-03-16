@@ -1,0 +1,5 @@
+question,answer
+"What is Endee?","Endee is a vector database for AI-powered semantic search."
+"How do I store embeddings in Endee?","Use Endee's Python SDK to add vectors with metadata."
+"What can Endee be used for?","Semantic search, RAG QA, and recommendation workflows."
+"How to query Endee?","Convert your query to an embedding and use the Endee query API."
